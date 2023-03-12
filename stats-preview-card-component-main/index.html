@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lexend+Deca:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/desktop1440.css" media="screen and (min-width: 1440px)">
     <link rel="stylesheet" href="./styles/styles.css">
+     
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,25 +22,33 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <img src="./images/image-header-mobile.jpg" alt="">
-      <p>Get <span>insights</span> that help your business grow.</p>
-      <div class="letter-container">
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-          experience, and overall efficiency.</p>
-      </div>
-      <div class="container-details">
-        <p>10k+ companies
-          314 templates
-          12m+ queries
-        </p>
+    <div class="target-container">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="./images/image-header-desktop.jpg">
+        <img src="./images/image-header-mobile.jpg" alt="">
+      </picture>
+      <div class="letter">
+        <div class="letter-container">
+          <h1 >Get <span>insights</span> that help your business grow.</h2>
+          <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</h2>
+        </div>
+        <div class="letter-details">
+          <div class="let-detail1">
+            <span class="s1">10k+</span>
+            <span class="s2">COMPANIES</span>
+          </div>
+          <div class="let-detail2">
+            <span class="s1">314</span>
+            <span class="s2">TEMPLATES</span> 
+          </div>
+          <div class="let-detail3">
+            <span class="s1">12M+</span>
+            <span class="s2">QUERIES</span>
+          </div>
+        </div>
       </div>
     </div>
-    
-
-    
-
-    
-
   </body>
 </html>
+

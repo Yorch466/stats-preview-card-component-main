@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.target-container{
+    height: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 15px;
+}
+
+.target-container picture{
+    width: 80%;
+}
+.target-container picture img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 15px;
+}
+
+.letter-container h1{
+    padding-top: 100px;
+    padding-bottom: 10px;    
+}   
+
+.letter-container p{
+    padding: 30px;
+}
+
+.letter-details{
+    padding-top: 80px;
+    padding-left: 200px;
+
+}
+
+.let-detail1{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.let-detail2{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.let-detail3{
+    display: inline-block;
+}
+
+
+
