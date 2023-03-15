@@ -34,15 +34,16 @@ body{
 
 .target-container{
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     border-radius: 10px;
     background-color: var(--Dark-desaturated-blue);
 }
 .target-container picture img{
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    filter: grayscale(100%) contrast(100%) brightness(80%) sepia(100%) hue-rotate(280deg);
+    height: 100%;
+    filter: grayscale(100%) contrast(60%) brightness(50%) sepia(55%) saturate(6) opacity(5) hue-rotate(235deg);    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .letter-container h1{
